@@ -215,3 +215,21 @@ For example:
 Email VARCHAR(100) NOT NULL UNIQUE
 
 This means that an email address must be entered and cannot be duplicated.
+
+12. Data Types
+
+Different data types are used depending on the type of information being stored.
+
+Examples include:
+
+INT – used for numbers such as IDs.
+VARCHAR – used for text.
+DATE – used for event dates.
+TIME – used for finishing times.
+DECIMAL – used for distances that can contain decimal values.
+
+For example:
+
+Distance DECIMAL(5,2)
+
+This allows the database to store distances such as 42.20 or 10.00.
