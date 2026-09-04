@@ -57,3 +57,15 @@ It contains:
 CategoryID
 CategoryName
 EventID
+
+ENROLMENTS
+
+Stores information about participants who enrol for events.
+
+It contains:
+
+EnrolmentID
+ParticipantID
+EventID
+CategoryID
+EnrolmentStatus
