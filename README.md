@@ -115,3 +115,19 @@ Adds foreign keys to connect the tables.
 Inserts sample data into the tables.
 Uses SELECT statements to display the data.
 Uses INNER JOIN statements to combine information from related tables.
+
+6. INNER JOIN
+
+An example of an INNER JOIN used in the database is:
+
+SELECT
+    USERS.FirstName,
+    USERS.LastName,
+    EVENTS.EventName
+FROM USERS
+INNER JOIN EVENTS
+    ON USERS.UserID = EVENTS.OrganiserID;
+
+This query displays the first name, last name and event name of users who are organisers.
+
+The INNER JOIN only displays records where there is a matching value between the two tables.
