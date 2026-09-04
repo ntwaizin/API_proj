@@ -102,3 +102,16 @@ A PARTICIPANT can enrol in multiple EVENTS.
 An ENROLMENT belongs to a participant, event and category.
 An ENROLMENT can have a RESULT.
 An EVENT can have multiple EVENT_IMAGES.
+
+5. SQL Operations
+
+The SQL script performs the following operations:
+
+Creates the RACE_DAY database.
+Selects the database using USE RACE_DAY.
+Creates all the required tables.
+Adds primary keys.
+Adds foreign keys to connect the tables.
+Inserts sample data into the tables.
+Uses SELECT statements to display the data.
+Uses INNER JOIN statements to combine information from related tables.
