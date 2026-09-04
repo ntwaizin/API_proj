@@ -90,3 +90,15 @@ ResultID
 EnrolmentID
 FinishTime
 FinishingPosition
+
+4. Relationships
+
+The database has the following relationships:
+
+A USER can organise one or more EVENTS.
+An EVENT belongs to an organiser.
+An EVENT can have multiple CATEGORIES.
+A PARTICIPANT can enrol in multiple EVENTS.
+An ENROLMENT belongs to a participant, event and category.
+An ENROLMENT can have a RESULT.
+An EVENT can have multiple EVENT_IMAGES.
