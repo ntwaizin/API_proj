@@ -158,3 +158,9 @@ Run the table creation statements.
 Run the INSERT statements.
 Run the SELECT statements to view the data.
 Run the INNER JOIN queries to view information from multiple tables.
+
+9. Purpose of the Database
+
+The purpose of the RACE_DAY database is to provide an organised way of managing sporting events, participants, organisers, event categories, enrolments and race results.
+
+It reduces the need to store information manually and makes it easier to retrieve related information using SQL queries.
