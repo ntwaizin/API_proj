@@ -195,3 +195,23 @@ EnrolmentID connects RESULTS to ENROLMENTS.
 EventID connects EVENT_IMAGES to EVENTS.
 
 Foreign keys help maintain relationships between the tables.
+
+
+
+11. Constraints
+
+The database uses different constraints to make sure that correct data is entered.
+
+Examples include:
+
+PRIMARY KEY – uniquely identifies each record.
+FOREIGN KEY – connects tables together.
+NOT NULL – makes sure a value must be entered.
+UNIQUE – prevents duplicate values.
+DEFAULT – automatically provides a value if no value is entered.
+
+For example:
+
+Email VARCHAR(100) NOT NULL UNIQUE
+
+This means that an email address must be entered and cannot be duplicated.
