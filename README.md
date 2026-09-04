@@ -146,3 +146,15 @@ The sample events include:
 Soweto Marathon
 Johannesburg Cycle Tour
 Cape Town Fun Walk
+
+8. How to Run the Database
+
+To run the database:
+
+Open MySQL or SQL Server.
+Copy the SQL code into the SQL editor.
+Run the database creation section first.
+Run the table creation statements.
+Run the INSERT statements.
+Run the SELECT statements to view the data.
+Run the INNER JOIN queries to view information from multiple tables.
