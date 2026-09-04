@@ -233,3 +233,22 @@ For example:
 Distance DECIMAL(5,2)
 
 This allows the database to store distances such as 42.20 or 10.00.
+
+
+13. SELECT Queries
+
+The database uses SELECT statements to display information stored in the tables.
+
+For example:
+
+SELECT * FROM USERS;
+
+This displays all the information stored in the USERS table.
+
+Another example is:
+
+SELECT * FROM EVENTS;
+
+This displays all events stored in the database.
+
+The * means that all columns should be displayed.
