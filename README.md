@@ -164,3 +164,18 @@ Run the INNER JOIN queries to view information from multiple tables.
 The purpose of the RACE_DAY database is to provide an organised way of managing sporting events, participants, organisers, event categories, enrolments and race results.
 
 It reduces the need to store information manually and makes it easier to retrieve related information using SQL queries.
+
+9. Primary Keys
+
+Primary keys are used to uniquely identify each record in a table.
+
+The database uses the following primary keys:
+
+UserID in the USERS table
+EventID in the EVENTS table
+CategoryID in the CATEGORIES table
+EnrolmentID in the ENROLMENTS table
+ResultID in the RESULTS table
+ImageID in the EVENT_IMAGES table
+
+A primary key cannot contain duplicate values.
