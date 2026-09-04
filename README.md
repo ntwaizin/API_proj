@@ -76,6 +76,16 @@ Stores the results of participants who completed an event.
 
 It contains:
 
+EVENT_IMAGES
+
+Stores images associated with events.
+
+It contains:
+
+ImageID
+EventID
+ImageURL
+
 ResultID
 EnrolmentID
 FinishTime
