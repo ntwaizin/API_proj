@@ -131,3 +131,18 @@ INNER JOIN EVENTS
 This query displays the first name, last name and event name of users who are organisers.
 
 The INNER JOIN only displays records where there is a matching value between the two tables.
+
+7. Sample Data
+
+The database contains sample users such as:
+
+John Mokoena
+Thabo Nkosi
+Mphiwa Bucibo
+Sihle Dlamini
+
+The sample events include:
+
+Soweto Marathon
+Johannesburg Cycle Tour
+Cape Town Fun Walk
