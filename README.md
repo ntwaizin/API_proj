@@ -69,3 +69,14 @@ ParticipantID
 EventID
 CategoryID
 EnrolmentStatus
+
+RESULTS
+
+Stores the results of participants who completed an event.
+
+It contains:
+
+ResultID
+EnrolmentID
+FinishTime
+FinishingPosition
