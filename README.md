@@ -30,3 +30,20 @@ Password
 Role
 
 Users can be either Organisers or Participants.
+
+EVENTS
+
+Stores information about race and sporting events.
+
+It contains:
+
+EventID
+EventName
+EventDescription
+EventDate
+Location
+Distance
+EventType
+OrganiserID
+
+Each event has an organiser.
