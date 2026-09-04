@@ -179,3 +179,19 @@ ResultID in the RESULTS table
 ImageID in the EVENT_IMAGES table
 
 A primary key cannot contain duplicate values.
+
+10. Foreign Keys
+
+Foreign keys are used to connect related tables together.
+
+Examples include:
+
+OrganiserID connects EVENTS to USERS.
+EventID connects CATEGORIES to EVENTS.
+ParticipantID connects ENROLMENTS to USERS.
+EventID connects ENROLMENTS to EVENTS.
+CategoryID connects ENROLMENTS to CATEGORIES.
+EnrolmentID connects RESULTS to ENROLMENTS.
+EventID connects EVENT_IMAGES to EVENTS.
+
+Foreign keys help maintain relationships between the tables.
