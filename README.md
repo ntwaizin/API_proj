@@ -11,3 +11,22 @@ The database uses relationships between tables to make sure that the information
 The database is called:
 
 RACE_DAY
+
+3. Tables Used
+
+The database contains the following tables:
+
+USERS
+
+Stores information about users of the system.
+
+It contains:
+
+UserID
+FirstName
+LastName
+Email
+Password
+Role
+
+Users can be either Organisers or Participants.
