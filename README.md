@@ -47,3 +47,13 @@ EventType
 OrganiserID
 
 Each event has an organiser.
+
+CATEGORIES
+
+Stores the different categories available for each event.
+
+It contains:
+
+CategoryID
+CategoryName
+EventID
